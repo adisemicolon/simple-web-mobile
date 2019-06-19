@@ -1,0 +1,199 @@
+
+body {
+	background: #eee;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+	border:0;
+	background:#dedede;
+	height:1px;
+}		
+
+header{
+	text-align: center;
+	color: #232323;
+}
+
+header .judul{
+	font-size: 17pt;
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:center;
+	padding:0;
+	width: auto;
+	margin:0 0 0;
+	background:#1abc9c ;
+}
+
+
+.wrap {
+	width: 950px;
+	margin:25px auto;
+}
+
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:center;
+	padding:0;
+	width: auto;
+	margin:0 0 0;
+	background: #1abc9c;
+}
+
+nav.menu ul li {
+	margin:0;
+	float:left;
+}
+
+nav.menu ul a {
+	padding:25px;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:#16a085;
+}
+
+
+
+.nama {
+	width:600px;
+	padding:25px;
+	margin:25px auto;
+	background: #fff;
+	border:1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+.images img{
+	width: 100%;
+    height: auto;
+}
+.nama img {
+	min-width: 650px;
+	margin:0 0 25px -25px;
+	max-width: 650px;
+	float: center;
+}
+
+.nama h1 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+	font-family: Georgia;
+}
+
+.frame {
+	font-size: 12pt;
+	overflow:hidden;
+	color:#1abc9c;
+	list-style: none;
+	padding:0;
+	width: auto;
+	margin:0 0 0;
+	background: white;
+}
+ul.biodata {
+    margin-top: 1em;
+    border-top: 1px solid #424242;
+    padding-top: 0.5em;
+}
+ul.biodata li {
+    display: block;
+}
+ul.biodata li ul.biodata-text li:nth-child(1) {
+    width: 28%;
+}
+ul.biodata li ul.biodata-text li {
+    display: inline-block;
+    color: #1abc9c;
+    margin-top: 1em;
+    font-weight: 100;
+}
+ul.biodata li ul.biodata-text li a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+ul.biodata li ul.biodata-text li a:hover{
+    color: #212121;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+	.header {
+		position:inherit;
+	}
+
+	.wrap {
+		width: 90%;
+		margin:25px auto;
+	}
+
+	nav.menu ul {
+		width: 100%;
+	}
+
+	nav.menu ul {
+		float:inherit;
+	}
+
+	nav.menu ul li {
+		float:inherit;
+		margin:0;
+	}
+
+	nav.menu ul a {
+		padding:15px;
+		font-size: 16px;
+		border-top:1px solid #1abf9f;
+		border-bottom:1px solid #16a085;
+	}
+
+	.nama {
+		float:inherit;
+		margin:0 auto 25px;
+		width:101%;
+		border:1px solid #dedede;
+		padding:5%;  
+		background: #fff;
+	}
+
+	.nama img {
+		max-width: 110%;
+		margin:0 0 25px -5%;
+		min-width: 110%;
+	}
+
+}
+
+@media screen and (max-width: 460px) {
+
+	nav.menu ul a {
+		padding:15px;
+		font-size: 14px;
+	}
+
+	.nama {
+		margin:25px auto;
+	}
+
+	.nama img {
+		margin:-5% 0 25px -5%;
+	}			
+}
